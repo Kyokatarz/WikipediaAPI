@@ -1,0 +1,34 @@
+
+.hidden{
+    opacity: 0;
+}
+
+.appear{
+    animation-name: appear;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.goToTop{
+    animation-name: goToTop;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fade{
+    100%{opacity: 0.6}
+}
+
+@keyframes appear{
+    100%{opacity: 1}
+}
+
+@keyframes shrink{
+
+    100%{}
+}
+
+@keyframes goToTop{
+    100%{margin-top: 10px; height: 20px}
+}
