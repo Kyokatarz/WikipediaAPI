@@ -18,7 +18,7 @@ function handleClick(){
     }
      
     document.getElementById('random').classList.add('goToTop');
-    const url = 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info&list=search&titles=Main%20Page&srsearch=' + input;
+    const url = 'https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info&list=search&titles=Main%20Page&srsearch=' + input;
     console.log('url: ', url);
     const previousSearch = document.getElementById('searches');
     
